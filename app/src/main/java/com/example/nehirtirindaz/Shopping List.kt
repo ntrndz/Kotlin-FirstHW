@@ -42,7 +42,6 @@ class ShoppingList {
         println("Item added successfully!")
     }
 
-    // Ürünleri listeleme fonksiyonu
     fun displayItems() {
         println("Display Item:")
         if (itemList.isEmpty()) {
@@ -59,7 +58,6 @@ class ShoppingList {
         }
     }
 
-    // Ürün silme fonksiyonu
     fun deleteItem() {
         println("Delete Item:")
         displayItems()
